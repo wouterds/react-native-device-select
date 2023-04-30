@@ -4,6 +4,8 @@ An extension on the React Native Platform utilities that offers some more granul
 
 ## Installation
 
+This library has a peer dependency on [`react-native-device-info`](https://github.com/react-native-device-info/react-native-device-info) so you will need to install that as well.
+
 ```sh
 npm install react-native-device-info react-native-device-select
 # or
@@ -12,7 +14,106 @@ yarn add react-native-device-info react-native-device-select
 
 ## Usage
 
-todo
+```ts
+import { Device, DeviceOS, DeviceType } from 'react-native-device-select'
+
+if (Device.isMobile) {
+  // mobile device
+}
+
+if (Device.isPhone) {
+  // phone
+}
+
+if (Device.isTablet) {
+  // tablet
+}
+
+if (Device.isAndroid) {
+  // Android device
+}
+
+if (Device.isApple) {
+  // Apple device
+}
+
+if (Device.isTV) {
+  // TV device
+}
+
+if (Device.isAppleTV) {
+  // Apple TV device
+}
+
+if (Device.isAndroidTV) {
+  // Android TV device
+}
+
+if (Device.type === DeviceType.Phone) {
+  // phone
+}
+
+if (Device.type === DeviceType.Tablet) {
+  // tablet
+}
+
+if (Device.type === DeviceType.TV) {
+  // TV
+}
+
+if (Device.OS === DeviceType.Android) {
+  // Android
+}
+
+if (Device.OS === DeviceOS.Apple) {
+  // Apple
+}
+
+if (Device.OS === DeviceType.Unknown) {
+  // Not Apple or Android
+}
+```
+
+### Device.select
+
+Just a basic example but all of above utilities are available on `Device.select` as an option.
+
+```ts
+import { Device } from 'react-native-device-select'
+
+const styles = StyleSheet.create({
+  container: {
+    marginVertical: 20,
+    ...Device.select({
+      phone: {
+        marginVertical: 10,
+      },
+      tablet: {
+        marginVertical: 15,
+      },
+      tv: {
+        marginVertical: 0,
+      },
+    }),
+  },
+  title: {
+    marginTop: 5,
+    ...Device.select({
+      android: {
+        marginTop: 4,
+      },
+    }),
+  },
+  signUpButton: {
+    fontSize: 14,
+    ...Device.select({
+      appleTV: {
+        display: 'none',
+      },
+    }),
+  }
+})
+```
 
 ## License
 
