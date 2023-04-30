@@ -31,8 +31,7 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepack": "bob build",
-    "release": "release-it",
-    "bootstrap": "yarn install"
+    "release": "release-it"
   },
   "keywords": [
     "react-native",
