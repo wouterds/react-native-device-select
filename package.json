@@ -10,7 +10,8 @@
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx; tsc --noEmit",
-    "lint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix"
+    "lint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "build": "rm -rf dist && tsc"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
