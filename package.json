@@ -1,6 +1,6 @@
 {
   "name": "react-native-device-select",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "description": "An extension on the React Native Platform utilities that offers some more granular choices that are device specific.",
   "keywords": [
@@ -19,7 +19,11 @@
   "homepage": "https://github.com/wouterds/react-native-device-select",
   "author": "Wouter De Schuyter <wouter.de.schuyter@gmail.com> (https://github.com/wouterds)",
   "main": "dist/index.js",
-  "files": ["dist", "package.json", "README.md"],
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx; tsc --noEmit",
     "lint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
