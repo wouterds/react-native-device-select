@@ -1,5 +1,9 @@
 # react-native-device-select
 
+[![code-review](https://github.com/wouterds/react-native-device-select/workflows/code-review/badge.svg)](https://github.com/wouterds/react-native-device-select/actions/workflows/code-review.yml)
+
+[![builds](https://github.com/wouterds/react-native-device-select/workflows/builds/badge.svg)](https://github.com/wouterds/react-native-device-select/actions/workflows/builds.yml)
+
 An extension on the React Native Platform utilities that offers some more granular choices that are device specific.
 
 ## Installation
