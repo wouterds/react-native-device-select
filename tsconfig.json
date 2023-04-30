@@ -23,6 +23,16 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "esnext"
-  }
+    "target": "esnext",
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true,
+  },
+  "include": [
+    "@types",
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules/"
+  ]
 }
