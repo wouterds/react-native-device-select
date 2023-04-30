@@ -1,16 +1,27 @@
+post-merge:
+  parallel: true
+  commands:
+    dependencies:
+      run: yarn --frozen-lockfile
+
+post-checkout:
+  parallel: true
+  commands:
+    dependencies:
+      run: yarn --frozen-lockfile
+
 pre-commit:
   parallel: true
   commands:
-    lint:
-      files: git diff --name-only @{push}
-      glob: "*.{js,ts,jsx,tsx}"
-      run: npx eslint {files}
-    types:
-      files: git diff --name-only @{push}
-      glob: "*.{js,ts, jsx, tsx}"
-      run: npx tsc --noEmit
+    lint:js:
+      glob: "src/*.{js,jsx}"
+      run: yarn eslint {staged_files}
+    lint:ts:
+      glob: "src/*.{ts,tsx}"
+      run: yarn eslint {staged_files}
+
 commit-msg:
   parallel: true
   commands:
     commitlint:
-      run: npx commitlint --edit
+      run: yarn commitlint --edit

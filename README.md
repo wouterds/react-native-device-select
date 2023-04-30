@@ -5,27 +5,15 @@ An extension on the React Native Platform utilities that offers some more granul
 ## Installation
 
 ```sh
-npm install react-native-device-select
+npm install react-native-device-info react-native-device-select
+# or
+yarn add react-native-device-info react-native-device-select
 ```
 
 ## Usage
 
-```js
-import { multiply } from 'react-native-device-select';
-
-// ...
-
-const result = await multiply(3, 7);
-```
-
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+todo
 
 ## License
 
 MIT
-
----
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
