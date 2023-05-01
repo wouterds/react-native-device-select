@@ -21,7 +21,7 @@ yarn add react-native-device-info react-native-device-select
 ## Usage
 
 ```ts
-import { Device, DeviceOS, DeviceType } from 'react-native-device-select'
+import { Device } from 'react-native-device-select'
 
 if (Device.isMobile) {
   // mobile device
