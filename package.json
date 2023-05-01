@@ -7,13 +7,12 @@
     "react-native",
     "ios",
     "android",
-    "platform utilities",
-    "device utilities",
-    "platform.select",
-    "device.select",
+    "device",
+    "select",
     "device select",
+    "device.select",
     "device utils",
-    "platform utils"
+    "device utilities"
   ],
   "repository": "https://github.com/wouterds/react-native-device-select",
   "homepage": "https://github.com/wouterds/react-native-device-select",
