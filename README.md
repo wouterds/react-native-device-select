@@ -4,7 +4,7 @@
 [![builds](https://github.com/wouterds/react-native-device-select/workflows/builds/badge.svg)](https://github.com/wouterds/react-native-device-select/actions/workflows/builds.yml)
 [![npm](https://img.shields.io/npm/v/react-native-device-select)](https://www.npmjs.com/package/react-native-device-select)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/react-native-device-select)](https://www.npmjs.com/package/react-native-device-select)
-<!-- [![npm downloads](https://img.shields.io/npm/dm/react-native-device-select)](https://www.npmjs.com/package/react-native-device-select) -->
+[![npm downloads](https://img.shields.io/npm/dm/react-native-device-select)](https://www.npmjs.com/package/react-native-device-select)
 
 An extension on the React Native Platform utilities that offers some more granular choices that are device specific.
 
