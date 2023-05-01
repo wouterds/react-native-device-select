@@ -54,30 +54,6 @@ if (Device.isAppleTV) {
 if (Device.isAndroidTV) {
   // Android TV device
 }
-
-if (Device.type === DeviceType.Phone) {
-  // phone
-}
-
-if (Device.type === DeviceType.Tablet) {
-  // tablet
-}
-
-if (Device.type === DeviceType.TV) {
-  // TV
-}
-
-if (Device.OS === DeviceType.Android) {
-  // Android
-}
-
-if (Device.OS === DeviceOS.Apple) {
-  // Apple
-}
-
-if (Device.OS === DeviceType.Unknown) {
-  // Not Apple or Android
-}
 ```
 
 ### Device.select
