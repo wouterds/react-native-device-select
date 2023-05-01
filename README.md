@@ -3,7 +3,6 @@
 [![code-review](https://github.com/wouterds/react-native-device-select/workflows/code-review/badge.svg)](https://github.com/wouterds/react-native-device-select/actions/workflows/code-review.yml)
 [![builds](https://github.com/wouterds/react-native-device-select/workflows/builds/badge.svg)](https://github.com/wouterds/react-native-device-select/actions/workflows/builds.yml)
 [![npm](https://img.shields.io/npm/v/react-native-device-select)](https://www.npmjs.com/package/react-native-device-select)
-[![npm peer dep](https://img.shields.io/npm/dependency-version/react-native-device-select/peer/react-native-device-info)](https://www.npmjs.com/package/react-native-device-select)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/react-native-device-select)](https://www.npmjs.com/package/react-native-device-select)
 [![npm downloads](https://img.shields.io/npm/dm/react-native-device-select)](https://www.npmjs.com/package/react-native-device-select)
 
